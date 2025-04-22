@@ -1,0 +1,44 @@
+.qodo
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*  # in case you have multiple env files like .env.local, etc.
+
+# Laravel IDE Helper (optional if used)
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Cache & Logs
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/testing
+
+# Composer & npm
+composer.lock
+package-lock.json
+yarn.lock
+
+# IDE / Editor files
+*.swp
+*.swo
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Homestead
+Homestead.json
+Homestead.yaml
